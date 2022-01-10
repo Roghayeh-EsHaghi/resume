@@ -1,6 +1,170 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Farsi-Digits/Vazir-FD.eot");
+  src: url("../fonts/Farsi-Digits/Vazir-FD.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Farsi-Digits/Vazir-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Vazir-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Vazir-FD.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Farsi-Digits/Vazir-Bold-FD.eot");
+  src: url("../fonts/Farsi-Digits/Vazir-Bold-FD.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Farsi-Digits/Vazir-Bold-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Vazir-Bold-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Vazir-Bold-FD.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Farsi-Digits/Vazir-Black-FD.eot");
+  src: url("../fonts/Farsi-Digits/Vazir-Black-FD.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Farsi-Digits/Vazir-Black-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Vazir-Black-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Vazir-Black-FD.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Farsi-Digits/Vazir-Medium-FD.eot");
+  src: url("../fonts/Farsi-Digits/Vazir-Medium-FD.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Farsi-Digits/Vazir-Medium-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Vazir-Medium-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Vazir-Medium-FD.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Farsi-Digits/Vazir-Light-FD.eot");
+  src: url("../fonts/Farsi-Digits/Vazir-Light-FD.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Farsi-Digits/Vazir-Light-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Vazir-Light-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Vazir-Light-FD.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Farsi-Digits/Vazir-Thin-FD.eot");
+  src: url("../fonts/Farsi-Digits/Vazir-Thin-FD.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Farsi-Digits/Vazir-Thin-FD.woff2") format("woff2"),
+    url("../fonts/Farsi-Digits/Vazir-Thin-FD.woff") format("woff"),
+    url("../fonts/Farsi-Digits/Vazir-Thin-FD.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+  font-family: "Vazir";
+  font-family: Vazir;
+}
 body {
-  background-color: #d68521;
+  background-color: #ffffff;
+  direction: rtl;
+  overflow-x: hidden;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bg-home {
   background-image: url("../images/pen.jpg");
-  background-size: cover;
+  height: 60vh;
+  /* margin-top: 400px; */
+  width: 100% !important;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.bg-home p {
+  direction: ltr;
+  position: absolute;
+  top: 15%;
+  left: 16%;
+  color: aliceblue;
+  transform: rotate(-26deg);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+.gray {
+  position: absolute !important;
+  top: 23% !important;
+  left: 19% !important;
+  transform: rotate(-26deg);
+  color: #494745;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px !important;
+  padding-left: 50px;
+}
+.stories {
+  margin-top: 30px;
+  padding: 0px 45px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 500;
+  align-items: center;
+}
+.stories h3 {
+  text-align: right;
+  width: fit-content;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 3px solid rgb(0, 17, 255);
+}
+.story {
+  background-color: #ffffff;
+  width: 75%;
+  box-shadow: 3px 3px 3px 3px rgb(189, 188, 188);
+  height: fit-content;
+  padding: 15px;
+  margin-bottom: 50px;
+  font-size: medium;
+  border-radius: 7px;
+}
+.story h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: larger;
+}
+.story p {
+  line-height: 39px;
+  color: rgb(48, 47, 47);
+}
+footer {
+  color: #494745;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-align: center;
 }
