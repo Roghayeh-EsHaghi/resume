@@ -1,14 +1,38 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.d3ce792a.css",
-    "main.js": "/resume/static/js/main.1b9a97f1.js",
+    "main.css": "/resume/static/css/main.99c87fe0.css",
+    "main.js": "/resume/static/js/main.3b7089e4.js",
     "static/media/pen.jpg": "/resume/static/media/pen.debca4d332c8e90441a1.jpg",
+    "static/media/Vazir-Light-FD.eot": "/resume/static/media/Vazir-Light-FD.c256a488d99e74c794ca.eot",
+    "static/media/Vazir-Light-FD.ttf": "/resume/static/media/Vazir-Light-FD.d9184120504537a682d1.ttf",
+    "static/media/Vazir-Black-FD.eot": "/resume/static/media/Vazir-Black-FD.a3a34e73daf8072edfaf.eot",
+    "static/media/Vazir-Bold-FD.eot": "/resume/static/media/Vazir-Bold-FD.2c9c7a721b645f821168.eot",
+    "static/media/Vazir-Black-FD.ttf": "/resume/static/media/Vazir-Black-FD.4ac73afc8c054357db5e.ttf",
+    "static/media/Vazir-Bold-FD.ttf": "/resume/static/media/Vazir-Bold-FD.ff7b479d60a4d46e05c8.ttf",
+    "static/media/Vazir-Medium-FD.eot": "/resume/static/media/Vazir-Medium-FD.e8226929876807d5a34e.eot",
+    "static/media/Vazir-Thin-FD.eot": "/resume/static/media/Vazir-Thin-FD.8539eb0a00411af42c2d.eot",
+    "static/media/Vazir-Medium-FD.ttf": "/resume/static/media/Vazir-Medium-FD.999d34389fb29a74386d.ttf",
+    "static/media/Vazir-Thin-FD.ttf": "/resume/static/media/Vazir-Thin-FD.60ba2e0eb0b9faa91ee8.ttf",
+    "static/media/Vazir-FD.eot": "/resume/static/media/Vazir-FD.6cd3187a56f246009ab3.eot",
+    "static/media/Vazir-FD.ttf": "/resume/static/media/Vazir-FD.17051d1189c7806068c7.ttf",
+    "static/media/Vazir-Light-FD.woff": "/resume/static/media/Vazir-Light-FD.ee0dc06c844a35c39dd1.woff",
+    "static/media/Vazir-Black-FD.woff": "/resume/static/media/Vazir-Black-FD.9ff24f6c142988f482ba.woff",
+    "static/media/Vazir-Bold-FD.woff": "/resume/static/media/Vazir-Bold-FD.a1280aa8ffd1917ce84a.woff",
+    "static/media/Vazir-Medium-FD.woff": "/resume/static/media/Vazir-Medium-FD.5a141e5ed23c9535cf1d.woff",
+    "static/media/Vazir-Thin-FD.woff": "/resume/static/media/Vazir-Thin-FD.8553389266e6adc5f469.woff",
+    "static/media/Vazir-FD.woff": "/resume/static/media/Vazir-FD.73087891c2e18e5e9850.woff",
+    "static/media/Vazir-Light-FD.woff2": "/resume/static/media/Vazir-Light-FD.d0c39f4c0aa91226c844.woff2",
+    "static/media/Vazir-Bold-FD.woff2": "/resume/static/media/Vazir-Bold-FD.3a61cc544fb0655770ff.woff2",
+    "static/media/Vazir-Black-FD.woff2": "/resume/static/media/Vazir-Black-FD.086114b2d7e647870cc1.woff2",
+    "static/media/Vazir-Thin-FD.woff2": "/resume/static/media/Vazir-Thin-FD.140e4000577189e5a2ab.woff2",
+    "static/media/Vazir-Medium-FD.woff2": "/resume/static/media/Vazir-Medium-FD.c1da2d85855743c86d49.woff2",
+    "static/media/Vazir-FD.woff2": "/resume/static/media/Vazir-FD.9770ba2cb85d76c611a3.woff2",
     "index.html": "/resume/index.html",
-    "main.d3ce792a.css.map": "/resume/static/css/main.d3ce792a.css.map",
-    "main.1b9a97f1.js.map": "/resume/static/js/main.1b9a97f1.js.map"
+    "main.99c87fe0.css.map": "/resume/static/css/main.99c87fe0.css.map",
+    "main.3b7089e4.js.map": "/resume/static/js/main.3b7089e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3ce792a.css",
-    "static/js/main.1b9a97f1.js"
+    "static/css/main.99c87fe0.css",
+    "static/js/main.3b7089e4.js"
   ]
 }
