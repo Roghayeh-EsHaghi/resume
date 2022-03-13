@@ -18,7 +18,7 @@ export default function KhaterehAseman() {
         <ImPushpin style={{ marginLeft: "8px" }} size={34} />
         خاطره آسمان
       </h4>
-      <p style={{ maxHeight: state.isCollapsed ? "0px" : "700px" }} className="collapsible">
+      <p style={{ maxHeight: state.isCollapsed ? "0px" : "1500px" }} className="collapsible">
         بوسه ای بر پیشانی پرستو نشاند، <br />و چه می‌دانست آسمان! <br />
         از تقدیر سنگی ک برای در آغوش گرفتن پرستو به پرواز درآمده...
         <br />
