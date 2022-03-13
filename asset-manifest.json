@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.99c87fe0.css",
-    "main.js": "/resume/static/js/main.3b7089e4.js",
+    "main.css": "/resume/static/css/main.76142486.css",
+    "main.js": "/resume/static/js/main.5e4538f7.js",
     "static/media/pen.jpg": "/resume/static/media/pen.debca4d332c8e90441a1.jpg",
     "static/media/Vazir-Light-FD.eot": "/resume/static/media/Vazir-Light-FD.c256a488d99e74c794ca.eot",
     "static/media/Vazir-Light-FD.ttf": "/resume/static/media/Vazir-Light-FD.d9184120504537a682d1.ttf",
@@ -28,11 +28,11 @@
     "static/media/Vazir-Medium-FD.woff2": "/resume/static/media/Vazir-Medium-FD.c1da2d85855743c86d49.woff2",
     "static/media/Vazir-FD.woff2": "/resume/static/media/Vazir-FD.9770ba2cb85d76c611a3.woff2",
     "index.html": "/resume/index.html",
-    "main.99c87fe0.css.map": "/resume/static/css/main.99c87fe0.css.map",
-    "main.3b7089e4.js.map": "/resume/static/js/main.3b7089e4.js.map"
+    "main.76142486.css.map": "/resume/static/css/main.76142486.css.map",
+    "main.5e4538f7.js.map": "/resume/static/js/main.5e4538f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.99c87fe0.css",
-    "static/js/main.3b7089e4.js"
+    "static/css/main.76142486.css",
+    "static/js/main.5e4538f7.js"
   ]
 }
