@@ -122,7 +122,6 @@ body {
 }
 .stories {
   margin-top: 30px;
-  padding: 0px 45px;
   font-size: 25px;
   display: flex;
   flex-direction: column;
@@ -147,7 +146,7 @@ body {
   width: 75%;
   box-shadow: 3px 3px 3px 3px rgb(189, 188, 188);
   height: fit-content;
-  padding: 15px;
+  padding: 0 15px;
   margin-bottom: 50px;
   font-size: medium;
   border-radius: 7px;
@@ -157,7 +156,9 @@ body {
   justify-content: flex-start;
   align-items: center;
   font-size: larger;
+  cursor: pointer;
 }
+
 .story p {
   line-height: 39px;
   color: rgb(48, 47, 47);
@@ -167,4 +168,10 @@ footer {
   font-size: 12px;
   padding: 6px 10px;
   text-align: center;
+}
+.collapsible {
+  transition: all 0.75s linear;
+  transition-delay: 0ms;
+  overflow-y: hidden;
+  margin-bottom: 0px;
 }
