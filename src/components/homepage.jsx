@@ -4,6 +4,7 @@ import ResumeAli from "./ResumeAli";
 import KhaterehAseman from "./KhaterehAseman";
 import BazeHoor from "./bazeHoor";
 import HalvaTiji from "./HalvaTiji";
+import ChildAgression from "./ChildAgression";
 export default function Homepage(props) {
   return (
     <div className="main">
@@ -17,6 +18,7 @@ export default function Homepage(props) {
           <FcViewDetails style={{ marginLeft: "8px" }} size={34} />
           متن ها
         </h3>{" "}
+        <ChildAgression />
         <BazeHoor />
         <HalvaTiji />
         <KhaterehAseman />
