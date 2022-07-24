@@ -5,6 +5,8 @@ import KhaterehAseman from "./KhaterehAseman";
 import BazeHoor from "./bazeHoor";
 import HalvaTiji from "./HalvaTiji";
 import ChildAgression from "./ChildAgression";
+import LarryPage from "./LarryPage";
+import Kahir from "./Kahir";
 export default function Homepage(props) {
   return (
     <div className="main">
@@ -18,6 +20,8 @@ export default function Homepage(props) {
           <FcViewDetails style={{ marginLeft: "8px" }} size={34} />
           متن ها
         </h3>{" "}
+        <LarryPage />
+        <Kahir />
         <ChildAgression />
         <BazeHoor />
         <HalvaTiji />
