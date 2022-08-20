@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ImPushpin } from "react-icons/im";
 
-export default function Lambourgini() {
+export default function Lambourgini() {  
   const [state, setState] = useState({
     isCollapsed: true,
   });
@@ -17,10 +17,10 @@ export default function Lambourgini() {
       >
         <ImPushpin style={{ marginLeft: "8px" }} size={34} />
         <a
-          href="https://bazibook.com/articles/child/raising/aggression/"
+          href="https://bazibook.com/biography/entrepreneurship/famous/ferruccio-lamborghini/"
           target={"_blank"}
         >
-          علل پرخاشگری در کودکان چیست و نحوه برخورد صحیح با کودک پرخاشگر{" "}
+          آشنایی با زندگی نامه فروچیو لامبورگینی ، کار افرین و بنیانگذار خودرو سازی لامبورگینی{" "}
           <span> (منتشر شده در سایت بازی بوک)</span>
         </a>
       </h4>

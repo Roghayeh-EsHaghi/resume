@@ -7,6 +7,8 @@ import HalvaTiji from "./HalvaTiji";
 import ChildAgression from "./ChildAgression";
 import LarryPage from "./LarryPage";
 import Kahir from "./Kahir";
+import Lambourgini from "./Lambourgini";
+import WarrenBuffet from "./WarrenBuffet";
 export default function Homepage(props) {
   return (
     <div className="main">
@@ -20,6 +22,8 @@ export default function Homepage(props) {
           <FcViewDetails style={{ marginLeft: "8px" }} size={34} />
           متن ها
         </h3>{" "}
+        <WarrenBuffet />
+        <Lambourgini />
         <LarryPage />
         <Kahir />
         <ChildAgression />
