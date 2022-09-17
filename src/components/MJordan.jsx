@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ImPushpin } from "react-icons/im";
 
-export default function LarryPage() {
+export default function MJordan() {
   const [state, setState] = useState({
     isCollapsed: true,
   });
@@ -16,8 +16,8 @@ export default function LarryPage() {
         }
       >
         <ImPushpin style={{ marginLeft: "8px" }} size={34} />
-        <a href="https://bazibook.com/biography/entrepreneurship/famous/larry-page/" target={"_blank"}>
-          آشنایی با زندگی لری پیج ، کارآفرین و بنیانگذار Google  
+        <a href="https://bazibook.com/biography/athletes/michael-jordan/" target={"_blank"}>
+            آشنایی با زندگی مایکل جردن، ورزشکار و کارآفرین موفق و معروف آمریکایی    
           <span> (منتشر شده در سایت بازی بوک)</span>
         </a>
       </h4>
